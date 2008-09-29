@@ -1,0 +1,20 @@
+#summary One-sentence summary of this page.
+
+= Install =
+
+From iPhone console:
+dpkg -i StatusNotifier_0.1_iphoneos-arm.deb
+
+= Uninstall =
+
+Cydia -> Manage
+
+or
+
+From iPhone console:
+dpkg -r com.otyo.statusnotifier
+
+= Details =
+
+Status bar is updated in every 60 seconds.
+(Edit /usr/local/StatusNotifier/daemon.sh for different update rate)
