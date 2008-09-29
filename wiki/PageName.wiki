@@ -5,6 +5,11 @@
 From iPhone console:
 dpkg -i StatusNotifier_0.1_iphoneos-arm.deb
 
+= Dependencies =
+
+It depends on com.ericasadun.utilities.
+Use Cydia or "apt-get install com.ericasadun.utilities".
+
 = Uninstall =
 
 Cydia -> Manage
