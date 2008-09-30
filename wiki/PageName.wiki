@@ -32,7 +32,8 @@ Status bar is updated in every 60 seconds.
 
 = Help =
 
-If somebody can help me how to put this project up into a repository and be accessible from Cydia, please contact me!
+  * If somebody can help me how to put this project up into a repository and be accessible from Cydia, please contact me!
+  * I hate editing PNG icon files! Please send me some if you don't like the current ones.
 
 = TaskbarNotifier =
 
