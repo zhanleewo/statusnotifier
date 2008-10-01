@@ -31,6 +31,8 @@ dpkg -r com.otyo.statusnotifier
 Status bar is updated in every 60 seconds.
 (Edit /usr/local/StatusNotifier/daemon.sh for different update rate)
 
+If Winterboard is installed there is a "Lock Status" theme for larger icons on lock screen.
+
 = Help =
 
   * If somebody can help me how to put this project up into a repository and be accessible from Cydia, please contact me!
