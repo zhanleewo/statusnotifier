@@ -10,6 +10,7 @@ dpkg -i StatusNotifier_0.1_iphoneos-arm.deb
 It depends on:
   * com.ericasadun.utilities
   * sqlite3
+  * Winterboard for theme (optional)
 
 Cydia 
 or 
