@@ -29,6 +29,11 @@ or
 From iPhone console:
 dpkg -r com.otyo.StatusNotifier
 
+= Preferences =
+
+Edit /var/mobile/Library/Preferences/com.otyo.StatusNotifier.plist
+You probably will figure out the meanings. GUI to change setting is under development.
+
 = Icons =
 
 New icons made by Max Rudberg of maxthemes.com
