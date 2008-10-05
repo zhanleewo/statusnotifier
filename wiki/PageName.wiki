@@ -5,6 +5,9 @@
 From iPhone console:
 dpkg -i StatusNotifier_x.x.x_iphoneos-arm.deb
 
+= Upgrade =
+If you have any issues upgrading from earlier versions, please uninstall old version first!
+
 = Dependencies =
 
 It depends on:
