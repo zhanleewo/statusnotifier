@@ -43,8 +43,3 @@ New icons made by Max Rudberg of maxthemes.com
 = Theme =
 
 If Winterboard is installed there is a "Lock Status" theme for larger icons on lock screen.
-
-= TaskbarNotifier =
-
-All the used icons were taken from the "Taskbar Notifier" project.
-http://code.google.com/p/taskbar-notifier/
