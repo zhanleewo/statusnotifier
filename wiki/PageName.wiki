@@ -3,19 +3,17 @@
 = Install =
 
 From iPhone console:
-dpkg -i StatusNotifier_0.1_iphoneos-arm.deb
+dpkg -i StatusNotifier_x.x.x_iphoneos-arm.deb
 
 = Dependencies =
 
 It depends on:
-  * com.ericasadun.utilities
-  * sqlite3
+  * Mobilesubstrate
   * Winterboard for theme (optional)
 
 Cydia 
 or 
-"apt-get install com.ericasadun.utilities"
-"apt-get install sqlite3"
+"apt-get install mobilesubstrate"
 
 = Uninstall =
 
@@ -24,19 +22,15 @@ Cydia -> Manage
 or
 
 From iPhone console:
-dpkg -r com.otyo.statusnotifier
+dpkg -r com.otyo.StatusNotifier
 
-= Details =
+= Icons =
 
-Status bar is updated in every 60 seconds.
-(Edit /usr/local/StatusNotifier/daemon.sh for different update rate)
+New icons made by Max Rudberg of maxthemes.com
+
+= Theme =
 
 If Winterboard is installed there is a "Lock Status" theme for larger icons on lock screen.
-
-= Help =
-
-  * If somebody can help me how to put this project up into a repository and be accessible from Cydia, please contact me!
-  * I hate editing PNG icon files! Please send me some if you don't like the current ones.
 
 = TaskbarNotifier =
 
