@@ -32,6 +32,8 @@ dpkg -r com.otyo.StatusNotifier
 = Preferences =
 
 Edit /var/mobile/Library/Preferences/com.otyo.StatusNotifier.plist
+After saving plist -> "killall SpringBoard"
+
 You probably will figure out the meanings. GUI to change setting is under development.
 
 = Icons =
