@@ -1,3 +1,21 @@
 #summary Options
 
-Under development
+enableMail
+
+enableSMS
+enablePhone
+enableCalendar
+enableSilent
+enablePhone
+
+reminderInterval
+reminderSoundID
+enableReminderPhone
+enableReminderMail
+enableReminderCalendar
+enableReminderSMS
+
+numberOfReminders
+    
+enableRemoteHttp
+httpPort
