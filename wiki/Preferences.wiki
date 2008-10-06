@@ -1,5 +1,8 @@
 #summary Customizable options
 
+Edit /var/mobile/Library/Preferences/com.otyo.StatusNotifier.plist
+After saving plist, you must "killall SpringBoard" or reboot your iPhone.
+
 _*enableMail*_
 
 Enables mail notification
