@@ -1,31 +1,53 @@
 #summary Customizable options
 
 _*enableMail*_
+Enables mail notification
 
-enableSMS
+_*enableSMS*_
+Enables SMS/MMS notification
 
-enablePhone
+_*enablePhone*_
+Enables missed call/voicemail notification
 
-enableCalendar
+_*enableCalendar*_
+Enables calendar notification
 
-enableSilent
+_*enableSilent*_
+Enables silent mode (ringer switch) notification
 
-enablePhone
+_*reminderInterval*_
+Interval in seconds between audio reminders, if any enabled reminder event occured
 
-reminderInterval
+_*reminderSoundID*_
+If 4095, reminder vibrates
+If -1, reminder plays the /System/Library/Audio/UISound/SNReminder.caf
 
-reminderSoundID
+_*numberOfReminders*_
+If 0, reminder stays active until any enabled reminder event is active
+Otherwise if this counter goes zero, reminder stops
 
-enableReminderPhone
+_*enableReminderPhone*_
+Enables missed call/voicemail reminder
 
-enableReminderMail
+_*enableReminderMail*_
+Enables mail reminder
 
-enableReminderCalendar
+_*enableReminderCalendar*_
+Enables calendar reminder
 
-enableReminderSMS
+_*enableReminderSMS*_
+Enables SMS reminder
 
-numberOfReminders
+_*enableRemoteHttp*_
+Built-in HTTP server accepts connections from non-localhost (remote) client.
+For example: 
+1. Copy the "/Library/Themes/Lock Status.theme" to your PC.
+2. Edit LockBackground.html -> change 127.0.0.1 to your iPhone's IP address
+3. Open LockBackground.html in IE
 
-enableRemoteHttp
+or
 
-httpPort
+From IE go to http://<your iPhone's IP>:16322/status
+
+_*httpPort*_
+Used port by built-in HTTP server
