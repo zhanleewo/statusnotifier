@@ -1,21 +1,31 @@
-#summary Options
+#summary Customizable options
 
-enableMail
+_*enableMail*_
 
 enableSMS
+
 enablePhone
+
 enableCalendar
+
 enableSilent
+
 enablePhone
 
 reminderInterval
+
 reminderSoundID
+
 enableReminderPhone
+
 enableReminderMail
+
 enableReminderCalendar
+
 enableReminderSMS
 
 numberOfReminders
-    
+
 enableRemoteHttp
+
 httpPort
