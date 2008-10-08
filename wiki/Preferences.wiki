@@ -56,6 +56,10 @@ _*enableReminderSMS*_
 
 Enables SMS reminder
 
+_*enableReminderUnlocked*_
+
+Enables reminder in unlocked mode
+
 _*enableRemoteHttp*_
 
 Built-in HTTP server accepts connections from non-localhost (remote) client.
