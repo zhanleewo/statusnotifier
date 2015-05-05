@@ -1,0 +1,75 @@
+Edit /var/mobile/Library/Preferences/com.otyo.StatusNotifier.plist
+
+After saving plist, you must "killall SpringBoard" or reboot your iPhone.
+
+
+
+_**enableMail**_
+
+Enables mail notification
+
+_**enableSMS**_
+
+Enables SMS/MMS notification
+
+_**enablePhone**_
+
+Enables missed call/voicemail notification
+
+_**enableCalendar**_
+
+Enables calendar notification
+
+_**enableSilent**_
+
+Enables silent mode (ringer switch) notification
+
+_**reminderInterval**_
+
+Interval in seconds between audio reminders, if any enabled reminder event occured
+
+_**reminderSoundID**_
+
+If 4095, reminder vibrates
+If -1, reminder plays the /System/Library/Audio/UISound/SNReminder.caf
+
+_**numberOfReminders**_
+
+If 0, reminder stays active until any enabled reminder event is active
+Otherwise if this counter goes zero, reminder stops
+
+_**enableReminderPhone**_
+
+Enables missed call/voicemail reminder
+
+_**enableReminderMail**_
+
+Enables mail reminder
+
+_**enableReminderCalendar**_
+
+Enables calendar reminder
+
+_**enableReminderSMS**_
+
+Enables SMS reminder
+
+_**enableReminderUnlocked**_
+
+Enables reminder in unlocked mode
+
+_**enableRemoteHttp**_
+
+Built-in HTTP server accepts connections from non-localhost (remote) client.
+For example:
+1. Copy the "/Library/Themes/Lock Status.theme" to your PC.
+2. Edit LockBackground.html -> change 127.0.0.1 to your iPhone's IP address
+3. Open LockBackground.html in IE
+
+or
+
+From IE go to http://<your iPhone's IP>:16322/status
+
+_**httpPort**_
+
+Used port by built-in HTTP server
